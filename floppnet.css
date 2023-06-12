@@ -1,0 +1,74 @@
+* {
+    font-family: 'Nunuto Sans', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background: #00FFFF;
+    background: radial-gradient(circle, #00FFFF 0%, #00008B 100%);
+}
+
+#sbtn {
+    padding: 12px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #4169E1;
+    border: none;
+}
+
+#sbi {
+    padding: 12px;
+    border-radius: 8px 0px 0px 8px;
+    width: 75%;
+    background-color: #00008B;
+    border: none;
+}
+
+.logo {
+    margin-top: 160px;
+}
+
+.icon {
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-left: 8px;
+    padding: 12px;
+    background-color: #00FFFF;
+}
+
+.toolbar {
+    display: flex;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #00FFFF;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.but1 {
+    color: white;
+    background-color: #00008B;
+    border: none;
+    font-size: 8px;
+    border-radius: 0px 24px 24px 0px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.but1:hover {
+    opacity: 0.5;
+}
+
+.material-symbols-outlined {
+    color: black;
+}
+
+.sear {
+    width: 100%;
+    height: 26px;
+    color: white;
+    background-color: #B0C4DE;
+    border: none;
+    border-radius: 24px 0px 0px 24px;
+    padding-left: 8px;
+}
